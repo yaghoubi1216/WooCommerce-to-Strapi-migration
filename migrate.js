@@ -1,6 +1,6 @@
 // ================= CONFIG =================
 
-const WC_BASE = "https://bilchi.com/wp-json/wc/v3";
+const WC_BASE = "https://your-wordepress-site.com/wp-json/wc/v3";
 const STRAPI_BASE = "http://localhost:1337/api";
 
 // you can set key and token into env file
@@ -225,3 +225,4 @@ async function migrateAll() {
 }
 
 migrateAll();
+
